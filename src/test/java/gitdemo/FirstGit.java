@@ -1,16 +1,18 @@
 package gitdemo;
 
-import org.testng.annotations.Test;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
+
 
 public class FirstGit {
 
-	@Test
-	public static void main1() {
+	
+	public static void main(String[] args) {
+		
+	} {
 		System.setProperty("webdriver.chrome.driver", 
 				"/Users/venkataprasanth/Installers/eclipse-workspace/Selenium Jar Files/Driver/chromedriver");
 		
