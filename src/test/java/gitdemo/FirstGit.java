@@ -23,7 +23,9 @@ public class FirstGit {
 
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Macbook",Keys.ENTER);
 		
-		driver.close();
+		driver.quit();
+		
+		
 		
 	}
 }
